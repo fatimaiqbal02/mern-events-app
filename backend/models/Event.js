@@ -27,7 +27,11 @@ const eventSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-    maxGroupSize: {
+    minGuestSize: {
+        type: Number,
+        required: true,
+    },
+    maxGuestSize: {
       type: Number,
       required: true,
     },
