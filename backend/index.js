@@ -6,6 +6,7 @@ import cookieParser from 'cookie-parser'
 
 import userRoute from './routes/users.js'
 import eventRoute from './routes/events.js'
+import reviewRoute from './routes/reviews.js'
 
 dotenv.config()
 
@@ -39,6 +40,9 @@ app.use('/api/v1/users', userRoute)
 
 //setting route for Event
 app.use('/api/v1/events', eventRoute)
+
+//setting route for Review
+app.use('/api/v1/review', reviewRoute)
 
 
 //starting the server
