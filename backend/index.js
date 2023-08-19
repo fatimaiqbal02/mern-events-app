@@ -5,6 +5,7 @@ import cors from 'cors'
 import cookieParser from 'cookie-parser'
 
 import userRoute from './routes/users.js'
+import eventRoute from './routes/events.js'
 
 dotenv.config()
 
@@ -35,6 +36,10 @@ app.get('/', (req,res)=>{
 
 //setting route for User
 app.use('/api/v1/users', userRoute)
+
+//setting route for Event
+app.use('/api/v1/events', eventRoute)
+
 
 //starting the server
 app.listen(portNo, (err)=>{
