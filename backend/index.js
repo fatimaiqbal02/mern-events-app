@@ -8,6 +8,7 @@ import userRoute from './routes/users.js'
 import eventRoute from './routes/events.js'
 import reviewRoute from './routes/reviews.js'
 import bookingRoute from './routes/bookings.js'
+import timeslotRoute from './routes/timeslots.js'
 
 dotenv.config()
 
@@ -54,6 +55,9 @@ app.use('/api/v1/review', reviewRoute)
 
 //setting route for Booking
 app.use('/api/v1/booking', bookingRoute)
+
+//setting route for Timeslot
+app.use('/api/v1/timeslot', timeslotRoute)
 
 
 
