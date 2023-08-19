@@ -4,6 +4,8 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
 
+import userRoute from './routes/users.js'
+
 dotenv.config()
 
 const app = express()
@@ -24,12 +26,15 @@ const connect = async()=>{
 
 
 //middlewares
-app.use(express())
+app.use(express.json())
 
 //routes
 app.get('/', (req,res)=>{
     res.send('Api working succesfully')
 })
+
+//setting route for User
+app.use('/api/v1/users', userRoute)
 
 //starting the server
 app.listen(portNo, (err)=>{
