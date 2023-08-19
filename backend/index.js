@@ -9,6 +9,7 @@ import eventRoute from './routes/events.js'
 import reviewRoute from './routes/reviews.js'
 import bookingRoute from './routes/bookings.js'
 import timeslotRoute from './routes/timeslots.js'
+import authRoute from './routes/auth.js'
 
 dotenv.config()
 
@@ -43,6 +44,9 @@ app.use(cookieParser())
 app.get('/', (req,res)=>{
     res.send('Api working succesfully')
 })
+
+//setting route for Authentication
+app.use('/api/v1/auth', authRoute)
 
 //setting route for User
 app.use('/api/v1/users', userRoute)
