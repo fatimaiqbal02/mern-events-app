@@ -1,13 +1,14 @@
 import express  from "express";
+import { verifyAdmin, verifyUser } from "../utils/verifyToken.js";
 import { createBooking, deleteBooking, 
-         getAllBookings, getBooking, updateBooking } from "../Controllers/bookingController.js";
+         getAllBookings, getBooking, updateBooking } from "../Controllers/bookingController.js";  
 
 const router = express.Router()              
 
-router.post('/', createBooking)
-router.get('/:id', getBooking)
-router.get('/', getAllBookings)
-router.put('/:id', updateBooking)
-router.delete('/:id', deleteBooking)
+router.post('/', verifyUser ,createBooking)
+router.get('/:id', verifyUser, getBooking)
+router.get('/', verifyAdmin, getAllBookings)
+router.put('/:id', verifyAdmin, updateBooking)
+router.delete('/:id',verifyAdmin, deleteBooking)
 
 export default router
