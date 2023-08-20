@@ -40,3 +40,19 @@ The app implements various modern web development concepts and technologies, inc
 
 - **Search Functionality:** A user-friendly search bar empowers users to swiftly locate specific events, streamlining their journey.
 
+## Concepts and Technologies Used
+
+- **React Concepts:** The app extensively uses React's functional components, Context API, hooks (useState, useEffect, useRef), props,dynamic rendering, forms and state management techniques.
+
+- **Node.js and Express:** The server is built using Node.js and Express.js, RESTful API facilitating seamless data retrieval, user authentication, and data manipulation.
+
+- **MongoDB Database:** MongoDB is employed for database storage, with Mongoose as the ODM (Object Document Mapper) for interaction with the database.
+
+- **User Authentication:** Authentication is implemented using JWT tokens, hashing passwords using bcrypt, Custom middleware functions to verify user authentication and authorization. ensuring secure user sessions and protected routes.
+
+- **Role-Based Access Control:** Different user roles (user and admin) are defined with distinct permissions.
+
+#
+Thank you for visiting this repository, and I hope you find this project helpful in your learning journey! Feel free to explore the project. If you have any questions or suggestions, contact me at fatimaiqbalmirza002@gmail.com
+
+Happy coding!✨
