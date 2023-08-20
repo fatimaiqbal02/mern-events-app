@@ -3,6 +3,16 @@ import Timeslot from '../models/TimeSlot.js'
 //1) TO CREATE A TIMESLOT
 export const createTimeslot = async (req, res)=>{
 
+    const { start_time, end_time } = req.body;
+
+    // Check if there's an existing timeslot
+    const existingSlot = await Timeslot.findOne({start_time, end_time});
+
+    if (existingSlot) {
+        return res.status(400).json({status: "failed",success: "false",
+                                     message: "Timeslot already present"});
+    }
+
     const newTimeslot = new Timeslot(req.body)
 
     try{
