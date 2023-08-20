@@ -3,7 +3,7 @@ import { createReview, getAllReviews, getReviewByEventId, getReviewByUserId, get
 
 const router = express.Router()              
 
-router.post('/:eventId/:userId', createReview)
+router.post('/', createReview)
 router.get('/getReviewByUserId/:id', getReviewByUserId)
 router.get('/getReviewByeventId/:id', getReviewByEventId)
 router.get('/:id', getSingleReview)

@@ -2,14 +2,9 @@ import Review from '../models/Review.js'
 
 //1) TO CREATE A REVIEW
 export const createReview = async (req, res)=>{
-     
-    const eventId = req.params.eventId
-    const userId = req.params.userId
 
     const newReview = new Review({
-        ...req.body,
-        user_id: userId,
-        event_id: eventId
+        ...req.body
     })
 
     try{
