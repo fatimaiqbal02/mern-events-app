@@ -3,6 +3,16 @@ import Booking from '../models/Booking.js'
 //1) TO CREATE A BOOKING
 export const createBooking = async (req, res)=>{
 
+    const { timeslot_id, bookingDate, event_id } = req.body;
+
+    // Check if there's an existing booking for event at the selected timeslot and date
+    const existingBooking = await Booking.findOne({event_id, timeslot_id, bookingDate});
+
+    if (existingBooking) {
+        return res.status(400).json({status: "failed",success: "false",
+                                     message: "Cannot book at that slot, already booked"});
+    }
+
     const newBooking = new Booking(req.body)
 
     try{
