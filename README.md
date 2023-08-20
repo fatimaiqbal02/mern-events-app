@@ -4,7 +4,7 @@ users to effortlessly explore, review, and book events at designated venues, on 
 Below is a detailed guide to understanding and using the app effectively.
 
 ## Introduction
-MERN Events App is a full-stack web application designed to simplify event booking and management. The app consists of two modules: Users and Admin. Users can browse, review, and book events, while Admins have full control over user management, event creation, timeslots management, review management, bookings management and more. 
+MERN Events App is a full-stack web application designed to simplify event booking and management. The app consists of two modules: **Users and Admin**. Users can browse, review, and book events, while Admins have full control over user management, event creation, timeslots management, review management, bookings management and more. 
 The app implements various modern web development concepts and technologies, including all important topics of React, MongoDB database, Node.js server, and Express.js framework.
 
 ## Features
@@ -22,4 +22,21 @@ The app implements various modern web development concepts and technologies, inc
 
 - **Modern UI with React:** The app boasts a user-friendly and responsive interface created with React, leveraging hooks, state management, and reusable components.
 
+## Key Modules:
+
+- **Home Section:** The app greets users with an inviting home page, showcasing featured events and an overview of its diverse offerings.
+
+- **Event Gallery:** Users can leisurely browse through a gallery of events, each elegantly displayed with captivating visuals and relevant details.
+
+- **Services Showcase:** A dedicated section highlights the comprehensive range of services the app provides, creating an all-inclusive experience.
+
+- **Featured Events:** Catching the eye, the Featured Events section showcases standout events that pique users' interest and curiosity.
+
+- **Review Section:** Users can share their experiences and insights by posting reviews for events they've attended, enriching the app's community.
+
+- **Booking Section:** Seamlessly, users can book an event by selecting a specific date and time slot, all while seeing real-time updates on guest size and cost.
+
+- **About Us:** This section provides insight into the app's background, objectives, and the team that has made it possible.
+
+- **Search Functionality:** A user-friendly search bar empowers users to swiftly locate specific events, streamlining their journey.
 
