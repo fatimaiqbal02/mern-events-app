@@ -16,10 +16,11 @@
 }
 .video-slider .video-slider__slide .content{
     text-align: center;
+    padding: 0rem 14rem;
     margin: 18rem 0rem;
 }
 .video-slider .video-slider__slide h3{
-    font-size: 7rem;
+    font-size: 5rem;
     color: white;
     font-family: var(--subtitle-font-name);
     text-shadow: 0 5px 10px rgba(0,0,0.2);
@@ -51,5 +52,22 @@
 @keyframes showText {
     0%{
         transform: scale(0.5);
+    }
+}
+
+@media only screen and (max-width:999px){
+    .video-slider .video-slider__slide .content{
+        margin: 23rem 0rem;
+    }
+}
+
+@media only screen and (max-width:570px){
+    .video-slider .video-slider__slide .content{
+        margin: 16rem 0rem;
+    }
+}
+@media only screen and (max-width:370px){
+    .video-slider .video-slider__slide .content{
+        margin: 21rem 0rem;
     }
 }

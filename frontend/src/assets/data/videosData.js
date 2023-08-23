@@ -6,28 +6,28 @@ import video5 from '../images/HomeVideo5.mp4'
 
 const videosData = [
     {
-      title: "Video Slider 1",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ...",
+      title: "Captivating Ambiance, Unforgettable Moments",
+      description: "Step into a realm of charm and sophistication. Our venues are carefully curated to provide the perfect ambiance for your events, creating a backdrop that enhances every moment.",
       videoSrc: video1
     },
     {
-      title: "Video Slider 2",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ...",
+      title: "Expert Team, Flawless Execution",
+      description: "Behind every successful event is a dedicated team that ensures seamless execution. Our experienced professionals work tirelessly to bring your vision to life, turning moments into memories.",
       videoSrc: video2
     },
     {
-        title: "Video Slider 3",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ...",
+        title: "Exquisite Culinary Experiences",
+        description: "Elevate your events with our culinary expertise. Indulge in a delightful array of flavors, carefully crafted to tantalize your taste buds & leave a lasting impression on your guests.",
         videoSrc: video3
     },
     {
-        title: "Video Slider 4",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ...",
+        title: "Crafting Uniqueness, Every Detail Matters",
+        description: "From concept to realization, we focus on the finer details that make your event truly special. Our services go beyond venues and decor. We craft personalized experiences.",
         videoSrc: video4
     },
     {
-        title: "Video Slider 5",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ...",
+        title: "Transformative Decor, Lasting Impressions",
+        description: "Immerse your guests in captivating atmospheres. Our creative decor transforms spaces into enchanting worlds, setting the stage for unforgettable celebrations.",
         videoSrc: video5
     }
 ];

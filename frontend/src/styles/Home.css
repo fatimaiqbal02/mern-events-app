@@ -1,6 +1,7 @@
 /* ----------------------------- Home Section ------------------------------ */
 .home-section{
     position: relative;
+    height: 83vh;
 }
 .home-section #next,
 .home-section #prev{
