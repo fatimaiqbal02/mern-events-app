@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import VideoSlider from '../Components/VideoSlider/Videoslider';
+import videosData from '../assets/data/videosData.js';
 
 const Home = () => {
   return (
-    <div>
-      This is home page
-    </div>
-  )
+    <section className='home-section'>
+      {videosData.map((item, index) => (
+        <VideoSlider key={index} title={item.title} description={item.description} videoSrc={item.videoSrc}/>
+      ))}
+    </section>
+  );
 }
 
-export default Home
+export default Home;
