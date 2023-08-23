@@ -1,11 +1,12 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import './Videoslider.css'
 
-const VideoSlider = ({ title, description, videoSrc }) => {
+const VideoSlider = ({ title, description, videoSrc, active }) => {
   return (
     <div className="video-slider">
-      <div className="video-slider__slide">
+      <div className={`video-slider__slide ${active ? 'active': ''}`}>
         <div className="content">
           <h3>{title}</h3>
           <p>{description}</p>
