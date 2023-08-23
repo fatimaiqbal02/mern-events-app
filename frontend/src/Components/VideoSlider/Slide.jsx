@@ -3,7 +3,7 @@ import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './Videoslider.css'
 
-const VideoSlide = ({ title, description, videoSrc, active }) => {
+const Slide = ({ title, description, videoSrc, active }) => {
   return (
     <div className="video-slider">
       <div className={`video-slider__slide ${active ? 'active': ''}`}>
@@ -18,4 +18,4 @@ const VideoSlide = ({ title, description, videoSrc, active }) => {
   );
 }
 
-export default VideoSlide;
+export default Slide;
