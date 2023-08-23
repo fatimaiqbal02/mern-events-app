@@ -29,8 +29,8 @@ const Home = () => {
                      description={item.description} videoSrc={item.videoSrc} active={index === slideNo}/>
       ))}
 
-      <div id="next" onClick={nextSlide} ><i class="ri-arrow-drop-right-line"></i></div>
-      <div id="prev" onClick={prevSlide}><i class="ri-arrow-drop-left-line"></i></div>
+      <div id="next" onClick={nextSlide} ><i className="ri-arrow-drop-right-line"></i></div>
+      <div id="prev" onClick={prevSlide}><i className="ri-arrow-drop-left-line"></i></div>
 
     </section>
     {/* ------------------x----------------Home section --------------x---------------------------- */}
