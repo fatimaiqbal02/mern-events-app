@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const VideoSlider = ({ title, description, videoSrc }) => {
   return (
-    <div className="home-section__container">
-      <div className="home-section__container__slide">
+    <div className="video-slider">
+      <div className="video-slider__slide">
         <div className="content">
           <h3>{title}</h3>
           <p>{description}</p>
