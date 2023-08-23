@@ -5,7 +5,6 @@ import './Videoslider.css'
 
 const Slide = ({ title, description, videoSrc, active }) => {
   return (
-    <div className="video-slider">
       <div className={`video-slider__slide ${active ? 'active': ''}`}>
         <div className="content">
           <h3>{title}</h3>
@@ -14,7 +13,6 @@ const Slide = ({ title, description, videoSrc, active }) => {
         </div>
         <video src={videoSrc} muted autoPlay loop></video>
       </div>
-    </div>
   );
 }
 

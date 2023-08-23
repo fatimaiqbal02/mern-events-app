@@ -1,10 +1,10 @@
 /* ------------------------------- VideoSlider --------------------------------*/
-.video-slider-section{
+.video-slider{
     position: relative;
     height: 83vh;
 }
-.video-slider-section #next,
-.video-slider-section #prev{
+.video-slider #next,
+.video-slider #prev{
     position: absolute;
     top:35%;
     z-index: 100;
@@ -12,26 +12,26 @@
     height: 60px;
     width: 60px;
 }
-.video-slider-section #next{
+.video-slider #next{
     right: 0;
 }
-.video-slider-section #prev{
+.video-slider #prev{
     left: 0;
 }
-.video-slider-section i{
+.video-slider i{
     font-size: 7rem;
     text-shadow: 0 5px 10px rgba(0,0,0.2);
 }
 
 /* ----------------x--------------- VideoSlider -----------x--------------------*/
 /* ---------------------------------- Slide ------------------------------------ */
-.video-slider .video-slider__slide{
+.video-slider__slide{
     position: relative;
     min-height: 100vh;
     overflow: hidden;
     z-index: -1;
 }
-.video-slider .video-slider__slide video{
+.video-slider__slide video{
     position: absolute;
     top:0; left:0;
     z-index: -1;
@@ -41,33 +41,33 @@
     object-fit: cover;
     animation: showVideo .4s linear;
 }
-.video-slider .video-slider__slide .content{
+.video-slider__slide .content{
     text-align: center;
     padding: 0rem 14rem;
     margin: 18rem 0rem;
 }
-.video-slider .video-slider__slide h3{
+.video-slider__slide h3{
     font-size: 5rem;
     color: white;
     font-family: var(--subtitle-font-name);
     text-shadow: 0 5px 10px rgba(0,0,0.2);
     animation: showText .4s linear;
 }
-.video-slider .video-slider__slide p{
+.video-slider__slide p{
     font-size: 1.6rem;
     color: white;
     text-shadow: 0 5px 10px rgba(0,0,0.2);
     margin-bottom: 2rem;
     animation: showText .4s linear;
 }
-.video-slider .video-slider__slide .btn{
+.video-slider__slide .btn{
     animation: showText .4s linear;
 }
 
-.video-slider .video-slider__slide{
+.video-slider__slide{
     display: none;
 }
-.video-slider .video-slider__slide.active{
+.video-slider__slide.active{
     display: block;
 }
 
@@ -83,18 +83,18 @@
 }
 
 @media only screen and (max-width:999px){
-    .video-slider .video-slider__slide .content{
+    .video-slider__slide .content{
         margin: 23rem 0rem;
     }
 }
 
 @media only screen and (max-width:570px){
-    .video-slider .video-slider__slide .content{
+    .video-slider__slide .content{
         margin: 16rem 0rem;
     }
 }
 @media only screen and (max-width:370px){
-    .video-slider .video-slider__slide .content{
+    .video-slider__slide .content{
         margin: 21rem 0rem;
     }
 }

@@ -21,7 +21,7 @@ const VideoSlider = () => {
 
   return (
     <>
-    <section className='video-slider-section'>
+    <section className='video-slider'>
       {videosData.map((item, index) => (
         <Slide key={index} title={item.title} 
                      description={item.description} videoSrc={item.videoSrc} active={index === slideNo}/>
