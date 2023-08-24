@@ -1,4 +1,4 @@
-# MERN Events App
+# mern-events-app
 Welcome to the MERN Events App repository! This is a comprehensive Event Management System built using the MERN (MongoDB, Express, React, Node.js) stack. The app allows
 users to effortlessly explore, review, and book events at designated venues, on specific dates and time slots.
 Below is a detailed guide to understanding and using the app effectively.
