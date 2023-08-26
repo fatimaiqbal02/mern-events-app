@@ -1,13 +1,17 @@
 import React from 'react';
 import VideoSlider from '../Components/VideoSlider/VideoSlider.jsx';
+import Subtitle from '../Components/Subtitle/Subtitle.jsx';
 
 const Home = () => {
 
   return (
     <>
-    {/* -----------------------------------Home section ------------------------------------------- */}
+    {/* ----------------------------------- VideoSlider section ------------------------------------------- */}
     <VideoSlider/>
-    {/* ------------------x----------------Home section --------------x---------------------------- */}
+    {/* ------------------x---------------- VideoSlider section --------------x---------------------------- */}
+    {/* ----------------------------------- Event-types section ------------------------------------------- */}
+    <Subtitle/>
+    {/* ------------------x---------------- Event-types section --------------x---------------------------- */}
     </>
   );
 }
