@@ -14,7 +14,7 @@
 .subtitle-container__subtitle::before, .subtitle-container__subtitle::after{
     content: "";
     flex: 1 1;
-    border-bottom: 1px dashed var(--text-color);
+    border-bottom: 1px solid var(--text-color);
     margin: 2rem 2rem;
 }
 @media only screen and (max-width:650px){
