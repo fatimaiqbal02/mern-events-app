@@ -2,6 +2,7 @@
 .video-slider{
     position: relative;
     height: 83vh;
+    margin-top: 10rem;
 }
 .video-slider #next,
 .video-slider #prev{

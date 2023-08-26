@@ -7,6 +7,8 @@
     top:0; left: 0; right: 0;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     background: #fff;
+    height: 10rem;
+    z-index: 1000;
 }
 .menu-btn{
     font-size: 3rem;
@@ -51,13 +53,16 @@
     .navbar__links{
         position: absolute;
         left: 0; right: 0;
-        top:13%;
+        top:99%;
         background: #fff;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);    /* normal */
     }
     .navbar__links ul{
         display: block;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
+    }
+    .navbar__links ul li{
+        font-size: 3rem;
     }
     .navbar__links.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);    

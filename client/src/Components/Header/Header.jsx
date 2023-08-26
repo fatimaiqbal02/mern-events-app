@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {Button} from 'reactstrap'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/images/logo.png'
@@ -24,9 +24,23 @@ const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  //for mobile menu
   const toggleMenu = () => {
     setIsMenuOpen((prevState) => !prevState);
   };
+
+  //to close mobile menu on scroll
+  const handleScroll = () =>{
+    setIsMenuOpen(false)
+  }
+
+  useEffect(()=>{
+    window.addEventListener('scroll', handleScroll);
+
+    return ()=>{
+      window.removeEventListener('scroll', handleScroll);
+    } 
+  }, [])
 
   return (
     <header className='header'>
@@ -43,7 +57,7 @@ const Header = () => {
         <ul>
 
           {nav__links.map((item, index)=>(
-            <li className="navbar__links__item" key= {index}>
+            <li className="navbar__links__item" key= {index} onClick={toggleMenu}>
               <NavLink to = {item.path} className= {navClass => navClass.isActive? "active__link": ""} 
               >{item.display}</NavLink>
             </li>
