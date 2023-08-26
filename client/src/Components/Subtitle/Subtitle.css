@@ -1,0 +1,24 @@
+.subtitle-container{
+    margin-top: 4rem;
+}
+.subtitle-container__subtitle{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    font-family: var(--subtitle-font-name);
+    text-shadow: 0 3px 4px rgb(255, 167, 236);
+    font-size: 3.5rem;
+    color: var(--secondary-color);
+}
+.subtitle-container__subtitle::before, .subtitle-container__subtitle::after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px dashed var(--text-color);
+    margin: 2rem 2rem;
+}
+@media only screen and (max-width:650px){
+    .subtitle-container__subtitle{
+        width: 70%;
+    }
+}
