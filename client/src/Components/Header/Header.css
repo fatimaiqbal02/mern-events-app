@@ -3,6 +3,10 @@
     align-items:center;
     justify-content: space-between;
     padding: 1rem 7%; 
+    position: fixed;
+    top:0; left: 0; right: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background: #fff;
 }
 .menu-btn{
     font-size: 3rem;
