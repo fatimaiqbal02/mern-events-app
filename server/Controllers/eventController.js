@@ -86,11 +86,12 @@ export const getAllEvents = async (req, res) =>{
 export const getEventsBySearch = async(req, res)=>{
 
     const name = new RegExp(req.query.name, 'i')
-    const venue = new RegExp(req.query.venue, 'i')
+    const area = req.query.area
     const maxGuestSize = parseInt(req.query.maxGuestSize)
 
     try{
-        const Events = await Event.find({name, venue, maxGuestSize:{$gte: maxGuestSize}})
+        const Events = await Event.find({name, address: { $regex: area, $options: 'i' },
+                                         maxGuestSize:{$gte: maxGuestSize}})
         res.status(200).json({status: "success", success:"true",
                              message: "Sucessful", data: Events})
 
