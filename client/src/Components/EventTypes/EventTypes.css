@@ -26,6 +26,9 @@
     color: var(--secondary-color);
     border-radius: 50%;
 }
+.event-types-section__icons:hover i{
+    transform: scale(1.2);
+}
 @media (max-width: 795px) {
     .event-types-section__icons {
         flex-basis: calc(50% - 1rem);
