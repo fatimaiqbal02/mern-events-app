@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Slide from './Slide.jsx';
 import videosData from '../../assets/data/videosData.js';
+import {RiArrowLeftSLine, RiArrowRightSLine  } from "react-icons/ri";
 import './Videoslider.css'
 
 const VideoSlider = () => {
@@ -27,8 +28,8 @@ const VideoSlider = () => {
                      description={item.description} videoSrc={item.videoSrc} active={index === slideNo}/>
       ))}
 
-      <div id="next" onClick={nextSlide} ><i className="ri-arrow-drop-right-line"></i></div>
-      <div id="prev" onClick={prevSlide}><i className="ri-arrow-drop-left-line"></i></div>
+      <div id="next" onClick={nextSlide}><i>{<RiArrowRightSLine/>}</i></div>
+      <div id="prev" onClick={prevSlide}><i><RiArrowLeftSLine/></i></div>
 
     </section>
     </>

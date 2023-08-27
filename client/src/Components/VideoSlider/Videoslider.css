@@ -7,21 +7,21 @@
 .video-slider #next,
 .video-slider #prev{
     position: absolute;
-    top:35%;
+    top:40%;
     z-index: 100;
     color: white;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 .video-slider #next{
     right: 0;
 }
 .video-slider #prev{
-    left: 0;
+    left: 1.5rem;
 }
 .video-slider i{
-    font-size: 7rem;
-    text-shadow: 0 5px 10px rgba(0,0,0.2);
+    font-size: 4rem;
+    background-color: rgba(0,0,0,0.2);
 }
 
 /* ----------------x--------------- VideoSlider -----------x--------------------*/
