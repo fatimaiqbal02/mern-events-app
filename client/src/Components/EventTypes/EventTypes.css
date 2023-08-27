@@ -31,7 +31,7 @@
         flex-basis: calc(50% - 1rem);
     }
 }
-@media (max-width: 531px) {
+@media (max-width: 540px) {
     .event-types-section{
         margin: 2rem 8rem;
     }
