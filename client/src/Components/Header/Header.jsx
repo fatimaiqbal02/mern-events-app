@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {Button} from 'reactstrap'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/images/logo.png'
+import { AiOutlineMenu } from "react-icons/ai";
 import './Header.css'
 
 const nav__links = [
@@ -16,7 +17,16 @@ const nav__links = [
   {
     path: '/events',
     display: 'Events'
+  },
+  {
+    path: '/gallery',
+    display: 'Gallery'
+  },
+  {
+    path: '/team',
+    display: 'Team'
   }
+
 
 ]
 
@@ -46,7 +56,7 @@ const Header = () => {
     <header className='header'>
           
       <div className={`menu-btn ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-        <i className="ri-menu-line"></i>
+        <i><AiOutlineMenu/></i>
       </div>
 
       <div className="navbar__logo">
