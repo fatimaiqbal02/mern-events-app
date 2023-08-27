@@ -9,6 +9,8 @@ import Events from '../pages/Events'
 import EventDetails from '../pages/EventDetails'
 import Notification from '../pages/Notification'
 import SearchResultList from '../pages/SearchResultList'
+import Gallery from '../pages/Gallery'
+import Team from '../pages/Team'
 
 
 const Routers = () => {
@@ -17,8 +19,8 @@ const Routers = () => {
         <Route path = '/' element = {<Navigate to = '/home'/>} />
         <Route path = '/home' element = {<Home/>} />
         <Route path = '/about' element = {<About/>} />
-        <Route path = '/team' element = {<About/>} />
-        <Route path = '/gallery' element = {<About/>} />
+        <Route path = '/team' element = {<Team/>} />
+        <Route path = '/gallery' element = {<Gallery/>} />
         <Route path = '/login' element = {<Login/>} />
         <Route path = '/register' element = {<Register/>} />
         <Route path = '/events' element = {<Events/>} />
