@@ -1,0 +1,38 @@
+.search-bar{
+    margin-top: 5rem;
+    padding: 40px;
+    background: var(--secondary-color);
+    color:white
+}
+.form__grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem
+}
+.form__grid h1{
+    text-align: center;    
+    display: block;
+    width: 100%;
+}
+input{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    flex: 1 1 calc(10% - 1rem);
+    outline: none;
+    width: 100%;
+    border:none
+}
+.search-bar__btn{
+    color: black;
+    background: #f2e3e3;
+}
+@media (max-width: 690px) {
+    .form__grid{
+        flex-direction: column;
+    }
+    .search-bar__btn{
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+}
