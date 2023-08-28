@@ -83,13 +83,13 @@
     }
 }
 
-@media only screen and (max-width:999px){
+@media only screen and (max-width:992px){
     .video-slider__slide .content{
         margin: 23rem 0rem;
     }
 }
 
-@media only screen and (max-width:570px){
+@media only screen and (max-width:576px){
     .video-slider__slide .content{
         margin: 16rem 0rem;
     }

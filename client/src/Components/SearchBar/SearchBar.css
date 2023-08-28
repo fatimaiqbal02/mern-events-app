@@ -8,7 +8,6 @@
     display: flex;
     flex-wrap: wrap;
     gap:2rem;
-    padding: 0rem 4rem
 }
 .form__grid h1{
     text-align: center;    
@@ -27,7 +26,7 @@ input{
     background: #f2e3e3;
     font-size: 1.3rem;
 }
-@media (max-width: 840px) {
+@media (max-width: 768px) {
     .form__grid{
         flex-direction: column;
     }
