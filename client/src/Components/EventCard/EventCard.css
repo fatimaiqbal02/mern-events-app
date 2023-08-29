@@ -1,0 +1,97 @@
+.card{
+    border: none;
+    box-shadow: rgba(0,0,0,0.2) 0px 18px 50px -10px;
+}
+.event__img img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.event__img{
+    position: relative;
+}
+.event__img span{
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    background: #f08a5d;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px 0 0 0;
+}
+.card__top{
+    padding: 0rem 1rem;
+}
+.card__top span i{
+    color: var(--secondary-color);
+}
+.card__top .event__rating{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:0.2rem
+}
+.card__top .event__rating{
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+.card__top .event__title{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.card__top .event__title a{
+    text-decoration: none;
+    color: var(--heading-color);
+    transition: .3s;
+} 
+.card__top .event__title a:hover{
+    color: var(--secondary-color);
+}
+.card__top .event__location .venue{
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.card__top .event__location .address{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding: 0.2rem;
+}
+.card__top .event__location i, .event__rating i{
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
+}
+.card__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.card__bottom h5{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0rem 1rem;
+}
+.card__bottom h5 span{
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.booking__btn{
+    background: var(--secondary-color);
+    cursor: pointer;
+    padding: 0.2rem 1rem;
+}
+.booking__btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.booking__btn a:hover{
+    color: #fff;
+}
