@@ -6,7 +6,7 @@ import calculateAvgRating from '../../utils/avgRating'
 
 const EventCard = ({ event }) => {
 
-    const { _id, name, venue, address, photo, desc, price, minGuestSize, maxGuestSize, featured, reviews } = event
+    const { _id, name, venue, address, photo, price, featured, reviews } = event
     const{totalrating, avgRating} = calculateAvgRating(reviews)
 
     /* const totalrating = reviews?.reduce((acc,item)=> acc + item.rating,0);
