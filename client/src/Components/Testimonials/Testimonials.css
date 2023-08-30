@@ -1,0 +1,29 @@
+.slick-slider{
+    margin: 3rem 7rem;
+}
+.testimonial{
+    padding: 0rem 2rem;
+    padding-bottom: 2rem;
+}
+.testimonial .review{
+    font-size: 1.4rem;
+    color: var(--heading-color);
+    height: 90px;
+}
+.testimonial__content{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap:2rem;
+}
+.testimonial__img{
+    width: 30%;
+    height: 30%;
+}
+.testimonial__name{
+    font-size: 1.2rem;
+}
+.testimonial__content p{
+   font-size: 1.2rem;
+   color: var(--heading-color);
+}
