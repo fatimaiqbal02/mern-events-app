@@ -6,6 +6,7 @@ import SearchBar from '../Components/SearchBar/SearchBar.jsx';
 import Services from '../Components/Services/Services.jsx';
 import FeaturedEventsList from '../Components/FeaturedEvents/FeaturedEventsList.jsx'
 import Experience from '../Components/Experience/Experience.jsx';
+import Testimonials from '../Components/Testimonials/Testimonials.jsx';
 
 const Home = () => {
 
@@ -32,6 +33,10 @@ const Home = () => {
     {/* -------------------------------------- Experience section -------------------------------------- */}
     <Experience/>
     {/* ------------------x------------------- Experience section ----------------x--------------------- */}
+    {/* -------------------------------------- Testimonials section ------------------------------------- */}
+    <Subtitle title={'Testimonials'}/>
+    <Testimonials/>
+    {/* ---------------------x---------------- Testimonials section ---------------x--------------------- */}
     </>
   );
 }
