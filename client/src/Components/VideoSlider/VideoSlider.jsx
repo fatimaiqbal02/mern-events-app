@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Slide from './Slide.jsx';
 import videosData from '../../assets/data/videosData.js';
 import {RiArrowLeftSLine, RiArrowRightSLine  } from "react-icons/ri";
@@ -19,6 +19,10 @@ const VideoSlider = () => {
       return prevSlide === 0 ? videosData.length - 1 : prevSlide - 1
     })
   }
+
+  useEffect(()=>{
+    setSlideNo(0)
+  },[])
 
   return (
     <>
