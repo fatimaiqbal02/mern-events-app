@@ -1,8 +1,13 @@
 .featured-event-section{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap:20px;
-    margin: 3rem 8rem
+    margin: 3rem 4rem;
+}
+@media only screen and (max-width:992px){
+    .featured-event-section{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media only screen and (max-width:768px){
     .featured-event-section{

@@ -111,6 +111,38 @@ const events =  [
         ] 
     },
     {
+      "_id": "64e0d654eaf6bae394cf3d5c",
+      "name": "Innovators' Tech Conference",
+      "venue": "Digital Nexus Center",
+      "address": "IT Tower, Lahore",
+      "photo": "/event-images/event-img09.jpg",
+      "desc": "Explore the latest tech trends and innovations.",
+      "price": 1200,
+      "minGuestSize": 100,
+      "maxGuestSize": 300,
+      "featured": true,
+      "reviews": [
+        {
+          "_id": "64e0f214414322701c606b75",
+          "user_id": "64e0bbe7637ed1c2d72c6b5a",
+          "event_id": "64e0d654eaf6bae394cf3d58",
+          "reviewText": "Awesome event!",
+          "rating": 5,
+          "createdAt": "2023-08-19T16:47:16.285Z",
+          "updatedAt": "2023-08-19T16:47:16.285Z"
+        },
+        {
+            "_id": "64e0f214414322701c606b75",
+            "user_id": "64e0bbe7637ed1c2d72c6b5a",
+            "event_id": "64e0d654eaf6bae394cf3d58",
+            "reviewText": "Awesome event!",
+            "rating": 5,
+            "createdAt": "2023-08-19T16:47:16.285Z",
+            "updatedAt": "2023-08-19T16:47:16.285Z"
+        }
+      ] 
+  },
+    {
         "_id": "64e0d654eaf6bae394cf3d5d",
         "name": "Carnival-themed Birthday Bash",
         "venue": "Funtime Park",
@@ -174,6 +206,38 @@ const events =  [
               }
         ] 
     },
+    {
+      "_id": "64e0d654eaf6bae394cf3d60",
+      "name": "Dinosaur Adventure Birthday",
+      "venue": "Jurassic Land Park",
+      "address": "Bahria Town, Lahore",
+      "photo": "/event-images/event-img13.jpg",
+      "desc": "Step into a prehistoric world for a roaring birthday.",
+      "price": 900,
+      "minGuestSize": 20,
+      "maxGuestSize": 50,
+      "featured": true,
+      "reviews": [
+        {
+          "_id": "64e0f214414322701c606b75",
+          "user_id": "64e0bbe7637ed1c2d72c6b5a",
+          "event_id": "64e0d654eaf6bae394cf3d58",
+          "reviewText": "Awesome event!",
+          "rating": 5,
+          "createdAt": "2023-08-19T16:47:16.285Z",
+          "updatedAt": "2023-08-19T16:47:16.285Z"
+        },
+        {
+            "_id": "64e0f214414322701c606b75",
+            "user_id": "64e0bbe7637ed1c2d72c6b5a",
+            "event_id": "64e0d654eaf6bae394cf3d58",
+            "reviewText": "Awesome event!",
+            "rating": 5,
+            "createdAt": "2023-08-19T16:47:16.285Z",
+            "updatedAt": "2023-08-19T16:47:16.285Z"
+          }
+      ] 
+  }
     
 ]
 export default events;

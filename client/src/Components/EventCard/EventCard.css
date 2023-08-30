@@ -42,6 +42,11 @@
 .card__top .event__title{
     font-size: 1.4rem;
     cursor: pointer;
+    display: block;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
 }
 .card__top .event__title a{
     text-decoration: none;
