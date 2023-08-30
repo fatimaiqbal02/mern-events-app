@@ -5,6 +5,7 @@ import EventTypes from '../Components/EventTypes/EventTypes.jsx';
 import SearchBar from '../Components/SearchBar/SearchBar.jsx';
 import Services from '../Components/Services/Services.jsx';
 import FeaturedEventsList from '../Components/FeaturedEvents/FeaturedEventsList.jsx'
+import Experience from '../Components/Experience/Experience.jsx';
 
 const Home = () => {
 
@@ -28,6 +29,9 @@ const Home = () => {
     <Subtitle title={'Featured Events'}/>
     <FeaturedEventsList/>
     {/* ------------------x---------------- Featured-Events section --------------x--------------------- */}
+    {/* -------------------------------------- Experience section -------------------------------------- */}
+    <Experience/>
+    {/* ------------------x------------------- Experience section ----------------x--------------------- */}
     </>
   );
 }
