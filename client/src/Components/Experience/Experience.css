@@ -1,0 +1,29 @@
+.experience-section{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: var(--secondary-color);
+    height: 11.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 2rem 6rem;
+}
+.counter{
+    flex: 1 1;
+    margin: 2rem 2rem;
+}
+.experience-section .counter span{
+    font-size: 2.3rem;
+}
+.experience-section .counter h6{
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+@media  only screen and (max-width: 576px) {
+    .experience-section{
+        flex-direction: column;
+        height: 27rem;
+    }
+}
