@@ -4,7 +4,7 @@ users to effortlessly explore, review, and book events at designated venues, on 
 Below is a detailed guide to understanding and using the app effectively.
 
 ## Introduction
-MERN Events App is a full-stack web application designed to simplify event booking and management. The app consists of two modules: **Users and Admin**. Users can browse, review, and book events, while Admins have full control over user management, event creation, timeslots management, review management, bookings management and more. 
+MERN Events App is a full-stack(MERN) web application designed to simplify event booking and management. The app consists of two modules: **Users and Admin**. Users can browse, review, and book events, while Admins have full control over user management, event creation, timeslots management, review management, bookings management and more. 
 The app implements various modern web development concepts and technologies, including all important topics of React, MongoDB database, Node.js server, and Express.js framework.
 
 ## Features
