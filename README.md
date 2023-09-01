@@ -38,7 +38,7 @@ The app implements various modern web development concepts and technologies, inc
 
 - **About Us:** This section provides insight into the app's background, objectives, and the team that has made it possible.
 
-- **Search Functionality:** A user-friendly search bar empowers users to swiftly locate specific events, streamlining their journey.
+- **Search Functionality:** A user-friendly search bar allows users to swiftly locate specific events, streamlining their journey.
 
 ## Concepts and Technologies Used
 
