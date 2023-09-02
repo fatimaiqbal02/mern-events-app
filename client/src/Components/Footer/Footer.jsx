@@ -66,71 +66,72 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className="footer-grid">
-            <div className="footer__logo-section">
+          <div className="footer__logo-section">
 
-              <img src={logo} alt="" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, repellat.</p>
+            <img src={logo} alt="" />
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, repellat.</p>
 
-              <div className="social-links">
-                <span>
-                  <Link to='#'><i><FaTwitter/></i></Link>
-                </span>
-                <span>
-                  <Link to='#'><i><FaFacebookF/></i></Link>
-                </span>
-                <span>
-                  <Link to='#'><i><FaLinkedinIn/></i></Link>
-                </span>
-                <span>
-                  <Link to='#'><i><FaInstagram/></i></Link>
-                </span>
-              </div>
-
+            <div className="social-links">
+              <span>
+                <Link to='#'><i><FaTwitter/></i></Link>
+              </span>
+              <span>
+                <Link to='#'><i><FaFacebookF/></i></Link>
+              </span>
+              <span>
+                <Link to='#'><i><FaLinkedinIn/></i></Link>
+              </span>
+              <span>
+                <Link to='#'><i><FaInstagram/></i></Link>
+              </span>
             </div>
 
-          <div className='footer__discover-section'>
-            <h3 className="footer__link-title">Discover</h3>
+          </div>
 
-            <div className='footer__quick-links'>
+        <div className='footer__discover-section'>
+          <h3 className="footer__link-title">Discover</h3>
+
+          <div className='footer__quick-links'>
+            {
+              quick__links.map((item, index) => (
+                <li key={index}>
+                  <Link to={item.path}>{item.display}</Link>
+                </li>
+              ))
+            }
+          </div>
+        </div>
+
+        <div className='footer__quicklinks-section'>
+          <h3 className="footer__link-title">Quick Links</h3>
+
+          <div className='footer__quick-links'>
+            {
+              quick__links2.map((item, index) => (
+                <li key={index}>
+                  <Link to={item.path}>{item.display}</Link>
+                </li>
+              ))
+            }
+          </div>
+        </div>
+
+
+        <div className='footer__contact-section'>
+          <h5 className="footer__link-title">Contact</h5>
+
+          <div className='footer__quick-links'>     
               {
-                quick__links.map((item, index) => (
-                  <li key={index}>
-                    <Link to={item.path}>{item.display}</Link>
-                  </li>
-                ))
+              contact_detail.map((item, index) => (
+                <li className='contact-detail' key={index}>
+                  <h6><span><i>{item.icon}</i></span>{item.title}:</h6>
+                  <p>{item.info}</p>
+                </li>
+              ))
               }
-            </div>
           </div>
 
-          <div className='footer__quicklinks-section'>
-            <h2 className="footer__link-title">Quick Links</h2>
-
-            <div className='footer__quick-links'>
-              {
-                quick__links2.map((item, index) => (
-                  <li key={index}>
-                    <Link to={item.path}>{item.display}</Link>
-                  </li>
-                ))
-              }
-            </div>
-          </div>
-
-          <div className='footer__contact-section'>
-            <h5 className="footer__link-title">Contact</h5>
-
-            <div className='footer__quick-links'>     
-               {
-                contact_detail.map((item, index) => (
-                  <li className='contact-detail' key={index}>
-                    <h6><span><i>{item.icon}</i></span>{item.title}:</h6>
-                    <p>{item.info}</p>
-                  </li>
-                ))
-               }
-            </div>
-
-          </div>
+        </div>
       </div>
       <div className='footer__copyright'>
               <p className="copyright">Copyright {year}, design and develop by Fatima Iqbal Mirza. All rights reserved</p>
