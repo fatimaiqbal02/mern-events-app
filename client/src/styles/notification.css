@@ -1,0 +1,27 @@
+.notification{
+    margin-top: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notification__container span i{
+    font-size: 6rem;
+    padding: 0rem 5rem;
+    color: green;
+}
+.notification__container h1{
+    font-size: 5rem;
+    font-family: var(--subtitle-font-name);
+}
+.notification__container h3{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.notification__container button{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
