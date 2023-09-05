@@ -1,10 +1,10 @@
 # mern-events-app
 Welcome to the MERN Events App repository! This is a comprehensive Event Management System built using the MERN (MongoDB, Express, React, Node.js) stack. The app allows
 users to effortlessly explore, review, and book events at designated venues, on specific dates and time slots.
-Below is a detailed guide to understanding and using the app effectively.
+Below is a detailed guide to understand the app effectively.
 
 ## Introduction
-MERN Events App is a full-stack(MERN) web application designed to simplify event booking and management. The app consists of two modules: **Users and Admin**. Users can browse, review, and book events, while Admins have full control over user management, event creation, timeslots management, review management, bookings management and more. 
+MERN Events App is a full-stack web application designed to simplify event booking and management. The app consists of two modules: **Users and Admin**. Users can browse, review, and book events, while Admins have full control over user management, event creation, timeslots management, review management, bookings management and more. 
 The app implements various modern web development concepts and technologies, including all important topics of React, MongoDB database, Node.js server, and Express.js framework.
 
 ## Features
@@ -42,7 +42,7 @@ The app implements various modern web development concepts and technologies, inc
 
 ## Concepts and Technologies Used
 
-- **React Concepts:** The app extensively uses React's functional components, Context API, hooks (useState, useEffect, useRef), props,dynamic rendering, forms and state management techniques.
+- **React Concepts:** The app extensively uses all concepts of React including functional components, Context API, hooks (useState, useEffect, useRef), props,dynamic rendering, forms and state management techniques.
 
 - **Node.js and Express:** The server is built using Node.js and Express.js, RESTful API facilitating seamless data retrieval, user authentication, and data manipulation.
 
