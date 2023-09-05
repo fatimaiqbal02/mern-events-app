@@ -47,11 +47,11 @@
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
-  margin-top: 13rem;
+  margin-top: 11rem;
 }
 
 .login__form  form{
-  margin: 2.6rem 2rem;
+  margin: 4rem 2rem;
 }
 .login__form input {
   width: 100%;
@@ -60,7 +60,6 @@
   outline: none;
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  background-color: bisque;
 }
   
 .login__form input:focus {
