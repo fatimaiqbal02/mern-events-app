@@ -8,7 +8,7 @@ MERN Events App is a full-stack web application designed to simplify event booki
 The app implements various modern web development concepts and technologies, including all important topics of React, MongoDB database, Node.js server, and Express.js framework.
 
 ## Features
-- **Event Exploration:** Users can browse through a list of events, view event details, venue information, and pricing per person. They can also see the minimum and maximum guest sizes allowed for each event.
+- **Event Exploration:** Users can browse through a list of events, view event details, venue information, and pricing per person. They can also see the minimum and maximum guest sizes allowed for event.
 
 - **Dynamic Pricing:** As users specify the number of guests they plan to bring, the pricing adjusts dynamically, ensuring transparency and flexibility in event selection.
 
